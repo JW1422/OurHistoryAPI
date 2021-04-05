@@ -14,7 +14,14 @@
     ],
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj": {
+            "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj"
+          },
+          "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj": {
+            "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

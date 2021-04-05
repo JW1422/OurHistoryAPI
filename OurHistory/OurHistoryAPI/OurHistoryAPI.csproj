@@ -14,4 +14,9 @@
       <Folder Include="Models" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OurHistory.Core\OurHistory.Core.csproj" />
+      <ProjectReference Include="..\OurHistory.Models\OurHistory.Models.csproj" />
+    </ItemGroup>
+
 </Project>

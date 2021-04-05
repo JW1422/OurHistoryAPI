@@ -66,6 +66,43 @@
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
+      },
+      "OurHistory.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OurHistory.Models": "1.0.0",
+          "OurHistory.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OurHistory.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OurHistory.Core.dll": {}
+        }
+      },
+      "OurHistory.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/OurHistory.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OurHistory.Models.dll": {}
+        }
+      },
+      "OurHistory.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OurHistory.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OurHistory.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OurHistory.Repository.dll": {}
+        }
       }
     }
   },
@@ -175,10 +212,27 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "OurHistory.Core/1.0.0": {
+      "type": "project",
+      "path": "../OurHistory.Core/OurHistory.Core.csproj",
+      "msbuildProject": "../OurHistory.Core/OurHistory.Core.csproj"
+    },
+    "OurHistory.Models/1.0.0": {
+      "type": "project",
+      "path": "../OurHistory.Models/OurHistory.Models.csproj",
+      "msbuildProject": "../OurHistory.Models/OurHistory.Models.csproj"
+    },
+    "OurHistory.Repository/1.0.0": {
+      "type": "project",
+      "path": "../OurHistory.Repository/OurHistory.Repository.csproj",
+      "msbuildProject": "../OurHistory.Repository/OurHistory.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "OurHistory.Core >= 1.0.0",
+      "OurHistory.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -209,7 +263,14 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Core/OurHistory.Core.csproj": {
+              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Core/OurHistory.Core.csproj"
+            },
+            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj": {
+              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

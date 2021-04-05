@@ -8,7 +8,10 @@
       <Folder Include="Helpers" />
       <Folder Include="Models" />
       <Folder Include="Queries" />
-      <Folder Include="Repository" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OurHistory.Models\OurHistory.Models.csproj" />
     </ItemGroup>
 
 </Project>

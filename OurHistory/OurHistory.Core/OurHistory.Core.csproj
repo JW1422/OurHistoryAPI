@@ -6,8 +6,11 @@
 
     <ItemGroup>
       <Folder Include="Helpers" />
-      <Folder Include="Models" />
-      <Folder Include="Services\Interfaces" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OurHistory.Models\OurHistory.Models.csproj" />
+      <ProjectReference Include="..\OurHistory.Repository\OurHistory.Repository.csproj" />
     </ItemGroup>
 
 </Project>

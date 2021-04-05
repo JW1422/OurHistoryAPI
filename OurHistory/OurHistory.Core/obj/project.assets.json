@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "OurHistory.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/OurHistory.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OurHistory.Models.dll": {}
+        }
+      },
+      "OurHistory.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OurHistory.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OurHistory.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OurHistory.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OurHistory.Models/1.0.0": {
+      "type": "project",
+      "path": "../OurHistory.Models/OurHistory.Models.csproj",
+      "msbuildProject": "../OurHistory.Models/OurHistory.Models.csproj"
+    },
+    "OurHistory.Repository/1.0.0": {
+      "type": "project",
+      "path": "../OurHistory.Repository/OurHistory.Repository.csproj",
+      "msbuildProject": "../OurHistory.Repository/OurHistory.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "OurHistory.Models >= 1.0.0",
+      "OurHistory.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/josh/.nuget/packages/": {},
@@ -34,7 +72,14 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj": {
+              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj"
+            },
+            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj": {
+              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
