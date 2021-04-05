@@ -1,17 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Folder Include="Helpers" />
-      <Folder Include="Middleware" />
       <Folder Include="Models" />
+      <Folder Include="Queries" />
+      <Folder Include="Repository" />
     </ItemGroup>
 
 </Project>

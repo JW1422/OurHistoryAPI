@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/OurHistoryAPI.csproj",
-    "projectName": "OurHistoryAPI",
-    "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/OurHistoryAPI.csproj",
-    "outputPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/obj/",
+    "projectUniqueName": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj",
+    "projectName": "OurHistory.Repository",
+    "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj",
+    "outputPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -25,12 +25,6 @@
   },
   "frameworks": {
     "netcoreapp3.0": {
-      "dependencies": {
-        "Swashbuckle.AspNetCore": {
-          "target": "Package",
-          "version": "[5.6.3, )"
-        }
-      },
       "imports": [
         "net461",
         "net462",

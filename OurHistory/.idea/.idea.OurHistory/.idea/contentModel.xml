@@ -2,12 +2,65 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="OurHistory.Core" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="OurHistory.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OurHistory.Core.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="Interfaces" t="Include" />
+        </e>
+      </e>
+      <e p="OurHistory.Models" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="History" t="Include">
+            <e p="HistoryPoint.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="OurHistory.Models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OurHistory.Models.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OurHistory.Repository" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="OurHistory.Repository.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OurHistory.Repository.csproj" t="IncludeRecursive" />
+        <e p="Queries" t="Include" />
+        <e p="Repository" t="Include" />
+      </e>
       <e p="OurHistory.sln" t="IncludeFlat" />
       <e p="OurHistoryAPI" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="Bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HistoryController.cs" t="Include" />
+          <e p="SearchController.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include" />
+        <e p="Middleware" t="Include" />
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
