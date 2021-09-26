@@ -1,0 +1,10 @@
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\bin\Debug\netcoreapp3.0\OurHistory.Models.deps.json
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\bin\Debug\netcoreapp3.0\OurHistory.Models.dll
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\bin\Debug\netcoreapp3.0\OurHistory.Models.pdb
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.csproj.AssemblyReference.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.AssemblyInfoInputs.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.AssemblyInfo.cs
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.csproj.CoreCompileInputs.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.dll
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Models\obj\Debug\netcoreapp3.0\OurHistory.Models.pdb

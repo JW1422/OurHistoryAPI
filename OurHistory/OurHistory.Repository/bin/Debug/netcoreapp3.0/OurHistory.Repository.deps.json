@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "OurHistory.Repository/1.0.0": {
+        "dependencies": {
+          "OurHistory.Models": "1.0.0"
+        },
+        "runtime": {
+          "OurHistory.Repository.dll": {}
+        }
+      },
+      "OurHistory.Models/1.0.0": {
+        "runtime": {
+          "OurHistory.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OurHistory.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OurHistory.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

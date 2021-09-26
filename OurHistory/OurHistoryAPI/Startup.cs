@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OurHistory.Core.Services;
+using OurHistory.Core.Services.Interfaces;
+using OurHistory.Repository.Interface;
+using OurHistory.Repository.Repository;
 
 namespace OurHistoryAPI
 {
@@ -27,6 +31,8 @@ namespace OurHistoryAPI
         {
             services.AddControllers();
             services.AddSwaggerGen();
+            services.AddTransient<IHistoryService, HistoryService>();
+            services.AddTransient<IHistoryRepository, HistoryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +49,7 @@ namespace OurHistoryAPI
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Our History API V1");
                 c.RoutePrefix = string.Empty;
             });
 

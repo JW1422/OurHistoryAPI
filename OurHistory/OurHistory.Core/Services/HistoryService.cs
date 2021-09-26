@@ -15,11 +15,11 @@ namespace OurHistory.Core.Services
             _historyRepository = historyRepository;
         }
         
-        public async Task<List<HistoryPoint>> GetHistoricalPoints()
+        public async Task<List<HistoricalPoint>> GetHistoricalPoints()
         {
             var response = await _historyRepository.GetHistoricalPoints();
             
-            return new List<HistoryPoint>(); // Goes off to repository
+            return response; // Goes off to repository
         }
     }
 }

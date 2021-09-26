@@ -44,7 +44,10 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
         "type": "package",
@@ -56,7 +59,10 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
         "type": "package",
@@ -65,7 +71,10 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "OurHistory.Core/1.0.0": {
         "type": "project",
@@ -108,9 +117,10 @@
   },
   "libraries": {
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
-      "sha512": "CTUFXZtUfx/rJMl3ep1E3KA7siGDEdm1QRA8ckrbeltEfr+Hs5DbytuTgPBf/Kyssv061zjyhcsl9w3LJMarmw==",
+      "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
       "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -134,7 +144,7 @@
       ]
     },
     "Microsoft.OpenApi/1.2.3": {
-      "sha512": "nYcQqZwal2AUwKSoN9Ah+lj9E9XB1XOGHjV8Q6sbTqc+qFz3Kvqwo9+lc4kIrefvaQTi0oD//yrZz8iGjCKEYQ==",
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
       "path": "microsoft.openapi/1.2.3",
       "files": [
@@ -151,7 +161,7 @@
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
-      "sha512": "1LRBiA/FuLIPXV8t5TN+d1tGNj41/IQnthqN3a0EsKl+uOyRVbkxmAAVZNPaDVR5InhupmBFHrNQ1wyNwygRHw==",
+      "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
       "path": "swashbuckle.aspnetcore/5.6.3",
       "files": [
@@ -163,7 +173,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.Swagger/5.6.3": {
-      "sha512": "T6dTGP628OwYfvpemqoFeWrFZ/enJSqgrE1CaD7rVJtgOCMiArbX6GUhscC5hWKkgJwL8wLSvYc9hbb5d6tM3g==",
+      "sha512": "rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swagger/5.6.3",
       "files": [
@@ -180,7 +190,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
-      "sha512": "x+SkwBsSh0h9fi7Hc/AnogKjObQ8cuZCRyT/7tmpsz7ny8mwAdxTR8kCOnH59YLNRwjGX+/EBecIEXIUjt+X4w==",
+      "sha512": "CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
       "files": [
@@ -197,7 +207,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
-      "sha512": "NzCBpXOJUNOr0kjOOi6vcgTg0gL5khMbqiyk9utfRMWvciXvAoirtC/z+A2y0eFgF/jgOwrwSjdXK7k+TgTUvw==",
+      "sha512": "BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "files": [
@@ -233,42 +243,45 @@
     ".NETCoreApp,Version=v3.0": [
       "OurHistory.Core >= 1.0.0",
       "OurHistory.Models >= 1.0.0",
+      "OurHistory.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "/Users/josh/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Josh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/OurHistoryAPI.csproj",
+      "projectUniqueName": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistoryAPI\\OurHistoryAPI.csproj",
       "projectName": "OurHistoryAPI",
-      "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/OurHistoryAPI.csproj",
-      "packagesPath": "/Users/josh/.nuget/packages/",
-      "outputPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistoryAPI/obj/",
+      "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistoryAPI\\OurHistoryAPI.csproj",
+      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
+      "outputPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistoryAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/josh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Core/OurHistory.Core.csproj": {
-              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Core/OurHistory.Core.csproj"
+            "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Core\\OurHistory.Core.csproj": {
+              "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Core\\OurHistory.Core.csproj"
             },
-            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj": {
-              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj"
+            "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Models\\OurHistory.Models.csproj": {
+              "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Models\\OurHistory.Models.csproj"
+            },
+            "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Repository\\OurHistory.Repository.csproj": {
+              "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Repository\\OurHistory.Repository.csproj"
             }
           }
         }
@@ -281,6 +294,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -296,7 +310,34 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

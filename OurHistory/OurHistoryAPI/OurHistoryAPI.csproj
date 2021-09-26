@@ -11,12 +11,12 @@
     <ItemGroup>
       <Folder Include="Helpers" />
       <Folder Include="Middleware" />
-      <Folder Include="Models" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\OurHistory.Core\OurHistory.Core.csproj" />
       <ProjectReference Include="..\OurHistory.Models\OurHistory.Models.csproj" />
+      <ProjectReference Include="..\OurHistory.Repository\OurHistory.Repository.csproj" />
     </ItemGroup>
 
 </Project>

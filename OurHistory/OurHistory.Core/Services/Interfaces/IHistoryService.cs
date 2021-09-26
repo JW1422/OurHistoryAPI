@@ -6,6 +6,6 @@ namespace OurHistory.Core.Services.Interfaces
 {
     public interface IHistoryService
     {
-        Task<List<HistoryPoint>> GetHistoricalPoints();
+        Task<List<HistoricalPoint>> GetHistoricalPoints();
     }
 }

@@ -1,6 +1,8 @@
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using OurHistory.Core.Services.Interfaces;
+using OurHistoryAPI.Models.History;
 
 namespace OurHistoryAPI.Controllers
 {
@@ -19,10 +21,7 @@ namespace OurHistoryAPI.Controllers
         {
             var response = await _historyService.GetHistoricalPoints();
             
-            return new JsonResult(new //return response
-            {
-                test = "test"
-            });
+            return new JsonResult(response.Select(HistoricalPointDto.FromDomain).ToList());
         }
 
         [HttpGet("Points/{id}")]

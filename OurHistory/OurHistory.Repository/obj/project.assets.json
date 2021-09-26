@@ -27,35 +27,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/josh/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Josh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj",
+      "projectUniqueName": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Repository\\OurHistory.Repository.csproj",
       "projectName": "OurHistory.Repository",
-      "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/OurHistory.Repository.csproj",
-      "packagesPath": "/Users/josh/.nuget/packages/",
-      "outputPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Repository/obj/",
+      "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Repository\\OurHistory.Repository.csproj",
+      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
+      "outputPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/josh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj": {
-              "projectPath": "/Users/josh/Documents/GitHub/OurHistoryAPI/OurHistory/OurHistory.Models/OurHistory.Models.csproj"
+            "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Models\\OurHistory.Models.csproj": {
+              "projectPath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Models\\OurHistory.Models.csproj"
             }
           }
         }
@@ -68,6 +67,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "imports": [
           "net461",
           "net462",
@@ -77,7 +77,27 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

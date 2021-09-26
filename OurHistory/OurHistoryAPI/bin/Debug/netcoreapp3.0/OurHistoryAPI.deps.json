@@ -8,9 +8,15 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_0"
+      "NETCOREAPP3_0",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,6 +30,9 @@
     ".NETCoreApp,Version=v3.0": {
       "OurHistoryAPI/1.0.0": {
         "dependencies": {
+          "OurHistory.Core": "1.0.0",
+          "OurHistory.Models": "1.0.0",
+          "OurHistory.Repository": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -372,6 +381,37 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "OurHistory.Core/1.0.0": {
+        "dependencies": {
+          "OurHistory.Models": "1.0.0",
+          "OurHistory.Repository": "1.0.0"
+        },
+        "runtime": {
+          "OurHistory.Core.dll": {}
+        },
+        "compile": {
+          "OurHistory.Core.dll": {}
+        }
+      },
+      "OurHistory.Models/1.0.0": {
+        "runtime": {
+          "OurHistory.Models.dll": {}
+        },
+        "compile": {
+          "OurHistory.Models.dll": {}
+        }
+      },
+      "OurHistory.Repository/1.0.0": {
+        "dependencies": {
+          "OurHistory.Models": "1.0.0"
+        },
+        "runtime": {
+          "OurHistory.Repository.dll": {}
+        },
+        "compile": {
+          "OurHistory.Repository.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2077,44 +2117,59 @@
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CTUFXZtUfx/rJMl3ep1E3KA7siGDEdm1QRA8ckrbeltEfr+Hs5DbytuTgPBf/Kyssv061zjyhcsl9w3LJMarmw==",
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "path": "microsoft.extensions.apidescription.server/3.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nYcQqZwal2AUwKSoN9Ah+lj9E9XB1XOGHjV8Q6sbTqc+qFz3Kvqwo9+lc4kIrefvaQTi0oD//yrZz8iGjCKEYQ==",
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/5.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1LRBiA/FuLIPXV8t5TN+d1tGNj41/IQnthqN3a0EsKl+uOyRVbkxmAAVZNPaDVR5InhupmBFHrNQ1wyNwygRHw==",
+      "sha512": "sha512-UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "path": "swashbuckle.aspnetcore/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.5.6.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/5.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T6dTGP628OwYfvpemqoFeWrFZ/enJSqgrE1CaD7rVJtgOCMiArbX6GUhscC5hWKkgJwL8wLSvYc9hbb5d6tM3g==",
+      "sha512": "sha512-rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
       "path": "swashbuckle.aspnetcore.swagger/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x+SkwBsSh0h9fi7Hc/AnogKjObQ8cuZCRyT/7tmpsz7ny8mwAdxTR8kCOnH59YLNRwjGX+/EBecIEXIUjt+X4w==",
+      "sha512": "sha512-CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
       "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NzCBpXOJUNOr0kjOOi6vcgTg0gL5khMbqiyk9utfRMWvciXvAoirtC/z+A2y0eFgF/jgOwrwSjdXK7k+TgTUvw==",
+      "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "OurHistory.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OurHistory.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OurHistory.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
       "type": "referenceassembly",

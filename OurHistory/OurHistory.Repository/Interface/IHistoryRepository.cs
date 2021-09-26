@@ -6,6 +6,6 @@ namespace OurHistory.Repository.Interface
 {
     public interface IHistoryRepository
     {
-        Task<List<HistoryPoint>> GetHistoricalPoints();
+        Task<List<HistoricalPoint>> GetHistoricalPoints();
     }
 }

@@ -1,0 +1,13 @@
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\bin\Debug\netcoreapp3.0\OurHistory.Repository.deps.json
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\bin\Debug\netcoreapp3.0\OurHistory.Repository.dll
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\bin\Debug\netcoreapp3.0\OurHistory.Repository.pdb
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\bin\Debug\netcoreapp3.0\OurHistory.Models.dll
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\bin\Debug\netcoreapp3.0\OurHistory.Models.pdb
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.csproj.AssemblyReference.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.AssemblyInfoInputs.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.AssemblyInfo.cs
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.csproj.CoreCompileInputs.cache
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.csproj.CopyComplete
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.dll
+C:\kernel\OurHistoryAPI\OurHistory\OurHistory.Repository\obj\Debug\netcoreapp3.0\OurHistory.Repository.pdb

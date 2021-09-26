@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XlLP+fgRaeibHuRIz45JdtqQh2PUJp/MPCWG0vLZzahsjgsQUEuOxwrXQhAL8aixvtE0FSYh4iXxbFAxANCW2w==",
+  "success": true,
+  "projectFilePath": "C:\\kernel\\OurHistoryAPI\\OurHistory\\OurHistory.Models\\OurHistory.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Josh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Josh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
